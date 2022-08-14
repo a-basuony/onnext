@@ -1,0 +1,236 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.first{
+  width: 100%;
+  height: 220px;
+  position: relative;
+  background-image: url('banner-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  
+}
+.child{ 
+  width: 100%;
+  height: 100%;
+  background-color: #131212;
+  opacity: 0.3;
+  position: absolute;
+  z-index: 1;
+}
+.logo{
+  position: absolute;
+  top:100px;
+  left: 150px;
+  z-index: 2;
+}
+.sd{
+  width: 300px;
+  height: 70px;
+  display: inline-block;
+  line-height: 70px;
+  text-align: center;
+  position: absolute;
+  right: 150px;
+  bottom: 0px;
+  z-index: 2;
+  background-color: rgb(226, 223, 37);
+  color: black;
+  text-transform: capitalize;
+  font-size: 30px;
+  text-decoration: none;
+  border-radius: 10px 10px 0px 0px;
+}
+.second{
+  width: 1450px;
+  height: 150px;
+  text-align: center;
+  padding-top: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin:100px auto 40px;
+  background-color:inherit;
+}
+.second p{
+  width: 800px;
+  margin:20px auto;
+  text-align: center;
+  font-size: 18px;
+  color: black;
+}
+.third{
+  width: 1450px;
+  margin: 50px auto;
+  overflow: hidden;
+}
+.third .one{
+  width: 705px;
+  height: 500px;
+  background-image: url('contact1.jpg');
+  background-position: center;
+  background-size: cover;
+  float: left;
+  margin-right: 20px;
+}
+.third .two
+{
+  width: 705px;
+  height: 500px;
+  background-image: url('contact2.jpg');
+  background-position: center;
+  background-size: cover;
+  float: right;
+  margin-left: 20px;
+}
+.four{
+  width: 1450px;
+  margin: 50px auto;  
+  height: 150px;
+  display: flex;
+}
+.four>div{
+  width:450px;
+  height: 150px;
+  background-color: inherit;
+  font-size: 18px;
+  flex-grow: 1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.four .one{
+  margin-right: 20px;
+}
+.four .two{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.four .three{
+  margin-left: 20px;
+}
+.four div h3{
+  margin-bottom: 15px;
+}
+.five{
+  width: 100%;
+  height: 700px;
+  background-image: url('contact3.jpg');
+  background-position: center;
+  background-size: cover;
+  margin-top:150px;
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.five h1{
+  margin-bottom: 50px;
+  color: #fff;
+}
+.container{
+  width: 750px;
+  height: 450px;
+  text-align: center;
+  background-color: inherit;
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+input{
+  width: 300px;
+  height: 20px;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+input[type="text"]
+{
+  margin-right: 20px;
+}
+input[type="email"]
+{
+  margin-left: 20px;
+}
+form div{
+  margin-bottom: 30px;
+}
+form textarea{
+  display: block;
+  width: 645px;
+  height: 200px;
+  margin :0px auto 35px;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+form a{
+  display: inline-block;
+  text-align: center;
+  height: 40px;
+  width: 300px;
+  line-height: 40px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: rgb(226, 223, 37);
+  text-transform: capitalize;
+}
+.six{
+  width: 100%;
+  height: 450px;
+  background-color: rgb(14, 52, 83);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.six .container{
+  width: 900px;
+  height: 300px;
+  background-color: inherit;
+  padding: 20px;
+}
+.six .container a{
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color:  rgb(226, 223, 37);
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sm{
+  background-color: inherit;
+  display: flex;
+  width: 550px;
+  margin: 40px auto;
+  justify-content: center;
+  justify-content: space-between;
+}
+.six .container .sm a{
+ width: 100px;
+ height: 100px;
+ text-decoration: none;
+ color: #fff;
+ font-size: 30px;
+ line-height: 100px;
+ background-color:  rgb(72, 106, 134);
+}
+.six .container .sm a:hover{
+  background-color: rgb(226, 223, 37);
+}
+.six p{
+  width: 575px;
+  margin: 0px auto;
+  word-spacing: 0.4px;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
